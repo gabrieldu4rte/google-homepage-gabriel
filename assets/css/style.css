@@ -147,13 +147,12 @@ body {
 
 .footer__links {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: space-around;
     font-size: 13px;
     color: #5f6368;
     padding: 10px;
 }
 
-.footer__links a:not(:first-child) {
-    margin-left: 27px;
+.footer__links a {
+    margin-right: 20px;
 }
